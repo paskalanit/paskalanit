@@ -28,9 +28,11 @@
   <body>
     <h1 id="spudrolan">Spudrolanit</h1>
     
-<div class="container">
+<div class="container col-sm-6">
+
 <div class="formi">
 <form role="form">
+	<h2 style="text-align:center"> Add note </h2>
   <div class="form-group">
     <label for="notetitle">Title:</label>
     <input type="text" class="form-control" id="notetitle">
@@ -39,10 +41,21 @@
     <label for="notecontent">Content:</label>
     <input type="text" class="form-control" id="notecontent">
   </div>
-  <button type="submit" class="btn btn-primary">Submit</button>
+  <button type="submit" class="btn btn-success">Submit</button>
+  <button type="reset" class="btn btn-danger">Clear</button>
 </form>
 </div>
-</div>     
+</div>
+ 
+ 
+<div class="container col-sm-6">
+<div class="databaseout">
+<h2 style="text-align:center"> Notes </h2>
+
+
+</div>
+</div>
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
