@@ -11,7 +11,7 @@ app.controller("Ctrl", function($scope, $firebaseArray) {
 			counter++;
 		};
 		
-		$scope.koulutukset.$add(
+		$scope.viestit.$add(
 				{ 'Id':counter, 'Title': $scope.Title, 'Content':$scope.Content});
 		
 	};
